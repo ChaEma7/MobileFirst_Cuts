@@ -1,0 +1,619 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "haettenschweiler", sans-serif;
+    font-family: "gill sans", sans-serif;
+}
+
+
+
+.all-content {
+    min-width: 365px;
+    max-width: 900px;
+}
+
+/* --------------- Header ------------------ */
+
+
+
+header {
+    background-color: white;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+
+
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+
+
+
+}
+
+.menu {
+    display: none;
+}
+
+
+/* --------------- Burger menu ------------ */
+
+.dropdown {
+    font-size: 25pt;
+    color: #3d473e;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: white;
+
+}
+
+.dropdown-content {
+    display: none;
+    font-size: 20pt;
+    list-style-type: none;
+    margin: -5px 0 0 -37.5px;
+
+}
+
+.dropdown-content li {
+    display: block;
+    padding-top: 20px;
+    margin: 20px;
+
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    font-family: "haettenschweiler", sans-serif;
+    color: #3d473e;
+
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .dropdown-content {
+    display: block;
+}
+
+/* --------------- Burger menu slut ------------ */
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: -28px;
+    width: 100px;
+    height: 35px;
+    border: solid 3px #3d473e;
+    border-radius: 15px;
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 15pt;
+    color: #3d473e;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* --------------- Header slut ------------------ */
+
+
+/* -------------------- Main ----------------------- */
+
+main {
+    background-color: rgba(61, 71, 62, 0.61);
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.baggrundsbillede {
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+    height: 100%;
+    background: no-repeat;
+
+}
+
+#myVideo {
+    display: none;
+}
+
+/* ----------------- Mobil menu knapper ---------------- */
+
+
+
+.flex-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 300px;
+
+}
+
+.flex-menu {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.mobil-menu {
+    text-decoration: none;
+}
+
+.section a {
+    list-style-type: none;
+
+}
+
+.m1 {
+    border: solid 3px #e6f0e7;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 20pt;
+    color: #e6f0e7;
+    text-align: center;
+    margin: 15px;
+}
+
+.m2 {
+    border: solid 3px #e6f0e7;
+    border-radius: 15px;
+    height: 40px;
+    width: 280px;
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 20pt;
+    color: #e6f0e7;
+    text-align: center;
+}
+
+figcaption {
+    padding-top: 5px;
+}
+
+/* ----------------- Mobil menu knapper slut ---------------- */
+
+h1 {
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 35pt;
+    color: #e6f0e7;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 200px;
+    letter-spacing: 2px;
+}
+
+.beskrivelse {
+    font-family: "gill sans", sans-serif;
+    font-size: 14pt;
+    color: #e6f0e7;
+    margin: 0 30px 120px;
+}
+
+.team-billeder {
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: solid 5px #3d473e;
+
+}
+
+.under-overskrift {
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 25pt;
+    margin: 30px;
+    color: #e6f0e7;
+    letter-spacing: 2px;
+}
+
+.under-beskrivelse {
+    font-family: "gill sans", sans-serif;
+    font-size: 14pt;
+    color: #e6f0e7;
+    margin: 0 30px 15px;
+}
+
+.link-til-insta {
+    display: flex;
+}
+
+.insta-icon {
+    height: 40px;
+    margin-left: 30px;
+}
+
+.sociale {
+    font-size: 14pt;
+    color: #e6f0e7;
+    margin-left: 15px;
+    margin-bottom: 120px;
+}
+
+a {
+    text-decoration-color: #e6f0e7;
+}
+
+.priskasse {
+    border: solid 3px #e6f0e7;
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 20pt;
+    color: #e6f0e7;
+    text-align: center;
+    margin: 15px 30px;
+}
+
+.under-overskrift-2 {
+    font-family: "haettenschweiler", sans-serif;
+    font-size: 30pt;
+    margin: 30px;
+    color: #e6f0e7;
+    letter-spacing: 2px;
+    margin-top: 100px;
+}
+
+.b {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.mere {
+    border: solid 3px #e6f0e7;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    font-family: "gill sans", sans-serif;
+    font-size: 15pt;
+    color: #e6f0e7;
+    text-align: center;
+    margin: 15px 30px;
+}
+
+.event-billeder {
+    width: 90px;
+}
+
+.event-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+table {
+    margin: 20px 30px;
+    color: #e6f0e7;
+
+}
+
+td {
+    padding: 5px 0px 5px 0px;
+}
+
+.dag {
+    padding-right: 135px;
+}
+
+.lukket {
+    text-align: center;
+}
+
+.mail {
+    color: #e6f0e7;
+}
+
+.kort {
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+}
+
+.handels {
+    display: flex;
+    padding-top: 10px;
+}
+
+.til-top {
+    border: solid 3px #517c54;
+    border-radius: 5px;
+    background-color: #517c54;
+    color: #e6f0e7;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+
+.til-top-1 {
+    display: none;
+}
+
+.figure-velkommen {
+    display: none;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 660px) {
+
+    header {
+        margin-top: -20px;
+        padding-bottom: 0px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    button {
+        position: absolute;
+        right: 30px;
+        top: 100px;
+        ;
+    }
+
+    .flex-container {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .stor-menu {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+
+    }
+
+    .stor-menu a {
+        text-decoration: none;
+        font-family: "haettenschweiler", sans-serif;
+        font-size: 18pt;
+        color: #3d473e;
+    }
+
+    .baggrundsbillede {
+        display: none;
+    }
+
+    #myVideo {
+        display: block;
+        position: fixed;
+        top: 170px;
+        right: 0;
+        bottom: 0;
+        z-index: -5;
+    }
+
+    .flex-velkommen {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 50px 0 600px 0;
+    }
+
+    .figure-velkommen {
+        display: block;
+        position: absolute;
+        top: 400px;
+        height: 150px;
+        width: 80%;
+        max-width: 900px;
+        background-color: rgba(230, 240, 231, 0.33);
+    }
+
+    .fig-velkommen {
+        font-family: "haettenschweiler", sans-serif;
+        font-size: 40pt;
+        color: #e6f0e7;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .stor-knap {
+        display: block;
+        position: sticky;
+        margin: auto;
+        margin-top: 20px;
+        width: 120px;
+        height: 45px;
+        border: solid 3px #e6f0e7;
+        border-radius: 15px;
+        font-family: "haettenschweiler", sans-serif;
+        font-size: 20pt;
+        color: #e6f0e7;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .til-top {
+        display: none;
+    }
+
+    .til-top-1 {
+        display: block;
+        border: solid 3px #517c54;
+        border-radius: 5px;
+        background-color: #517c54;
+        color: #e6f0e7;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        margin: 0px;
+    }
+
+    /* ------------ CONTENT ---------- */
+
+    .beskrivelse {
+        margin: 0 100px 120px;
+    }
+
+    .team-billeder {
+        display: block;
+        float: left;
+        width: 30%;
+        border: solid 5px #3d473e;
+        margin: 0 20px 0px 100px;
+    }
+
+    .team-billeder-2 {
+        float: right;
+        margin: 0 100px 0px 20px;
+    }
+
+    .uo {
+        padding-top: 70px;
+    }
+
+    .uo2 {
+        padding-top: 70px;
+        margin-left: 100px;
+    }
+
+
+    .ii {
+        margin: 0px;
+    }
+
+    .ii2 {
+        margin-left: 100px;
+    }
+
+    .under-overskrift-2 {
+        padding: 0 100px;
+        margin-left: 0;
+    }
+
+    .under-beskrivelse {
+        padding: 0 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .priskasse {
+        margin-left: 100px;
+    }
+
+    .b {
+        width: 40%;
+    }
+
+    .shop5 {
+        width: 90%
+    }
+
+    .mere {
+        margin-left: 100px;
+    }
+
+    .event-flex {
+        margin: 50px 100px;
+    }
+
+    table {
+        margin: 20px 100px;
+    }
+
+    .handin {
+        margin-left: 100px;
+        justify-content: flex-start;
+    }
+
+    .kort {
+        height: 200px;
+        width: 300px;
+        margin: 50px 100px;
+    }
+
+    /* --------------- CONTENT SLUT -------------*/
+
+    .shop-billeder {
+        display: flex;
+        justify-content: center;
+        margin: 0 100px;
+    }
+
+    .shop5 {
+        width: 65%
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .all-content {
+        margin: auto;
+        max-width: 824px;
+    }
+
+    .menu {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .stor-button {
+        margin-top: -40px;
+        width: 125px;
+        height: 60px;
+        border-radius: 20px;
+        border: #517c54;
+        font-size: 20pt;
+        color: #e6f0e7;
+        background-color: #517c54;
+        margin-right: 3rem;
+    }
+
+    .kort {
+        width: 70%;
+    }
+
+    .uo {
+        padding-top: 99px;
+    }
+
+    .uo2 {
+        padding-top: 100px;
+        margin-left: 100px;
+    }
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #myVideo {
+        width: auto;
+        height: 100%;
+    }
+}
